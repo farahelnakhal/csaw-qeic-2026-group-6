@@ -1,0 +1,404 @@
+{
+  "schema_version": "1.0",
+  "challenge_release_id": "qei-2026-11-12",
+  "participant_solution_sha256": "f36eb5c2dbd90ce36f01eb4b50a8dffc24bbf25921bd54bef991100b42654dec",
+  "public_artifact_sha256": {
+    ".gitattributes": "a0be2f89acce02f1efe534b4f4fe3b1cd3a7ed41964b2f1619f26c36f3fc72db",
+    ".gitignore": "e0fb62e9fbee8f95097ee50d4f43c85d5d316fd69eb66d3b1e1e822ed2ca1f5c",
+    "demo/artifacts/backend.json": "dd03b3ee259e1ff20d0e3e017454f2337ff333aed3ab1ef0063a65e3a1605611",
+    "demo/artifacts/challenge.json": "e26101c68bc8db1e41f50a6a3e75c99e5e6aa9f493c1247ab9e6841fcea45273",
+    "demo/artifacts/compiled_circuit.qpy": "ececfc9ff037da5924665444cc3a296d245c30cc26f2df93e571b65d955eaaea",
+    "demo/artifacts/compiled_circuit.txt": "ed9ea2cf4f71dde66830a7c9dbbc1fb749088c06eae326dafe4817ca3bc2f491",
+    "demo/artifacts/execution_counts.json": "355f71067715c1bb553b7422537d959d1f5b0127d507f21b350dd48b7234b987",
+    "demo/artifacts/intended_circuit.qpy": "9356734631501cd7e73d3628a2f9d8368674f6300fe0a94432ead8d3ce8666d0",
+    "demo/artifacts/intended_circuit.txt": "f6c555e63aac37e9f29274280187d175589d2f63c33a7c121173305098b586fd",
+    "demo/artifacts/README.md": "a520f8e1ccf80d66c04e74049a835144908f85e2543f343ff5069b88f989323c",
+    "demo/README.md": "8f1ba1fe80dd7127ab5a9b0bc9514a64f7d47d5f3c6db6d48722fabd4c3555af",
+    "demo/walkthrough.py": "83c6df8a332feb3709ac0d722ec1034da32be3b0bfe6d4515cc65dad751b08ee",
+    "environment_check.py": "1354df8e32aa699ec1adf8e4c1df11add81a7f7554d4ed8542e40536027c640c",
+    "evaluate.py": "fcb542d09f77e5231fb20984cc68ef6cbc7300138f7814a85c9fcddf0a4996ff",
+    "README.md": "60a8418be0f6276102df2f87ce544b09108e6e6fe18863a0cb7ebfbf320e52c9",
+    "requirements-advanced.txt": "0a7a00eb5767590ff73fc185612ea40d0af01327ad609f87afdffe650f28ab4f",
+    "requirements-core.txt": "aa074b8ebeb37db7767bf6d605cbfbfb6a9868e64cc1574d0ac5065de5fe84f3",
+    "REQUIREMENTS.md": "feef3a59ebad17008d61209214a44b01dc40e72c48a02550364b1fd0d27f0381",
+    "rules.json": "cdbcf1425d88cfce380d66fe5eb21ab4529ed88c26ead194532c2d496327d674",
+    "stages/stage_1/artifacts/backend.json": "a5fe852012e4d549dc39921131a74c3729d407f5b60b7d438d0aae284204ca0e",
+    "stages/stage_1/artifacts/calibration_current.json": "81ba3a178a26ae717ac85b7097975eed29ad8edef4359937f57bb1a8914cd726",
+    "stages/stage_1/artifacts/calibration_previous.json": "13c7871428a23f8952b1d6abba15bb71c3ba9cc982f315c3f3f7f380ba0da55a",
+    "stages/stage_1/artifacts/challenge.json": "4909ca1279f3063be798372c81586fa5cfe8bc07135cf8fc08f54e9cd83b5dd0",
+    "stages/stage_1/artifacts/compiled_circuit.qpy": "4a623d4da21d3d894d2d0f38ee694b65dc68f70c833fab0449c9bf0bcec02422",
+    "stages/stage_1/artifacts/control_manifest.json": "e8c18c7ae348a0adb6cb27e6a186ac8625203a52a72f3624d3727a828d3b74cb",
+    "stages/stage_1/artifacts/diagnostic_budget.json": "bcb8004035fde55e3106c9fedc312880f0c3e7f5bf287f5850df98f953d5e501",
+    "stages/stage_1/artifacts/diagnostic_client.py": "08ced3f5aa93d6eebe4850cc2d81f4d70fd55165271dd9e574877b573df0e510",
+    "stages/stage_1/artifacts/execution_counts.json": "c6621f94f5d32fb4423fc8aea3b3e451598f5ac30a6d417ace95cfd730b02f64",
+    "stages/stage_1/artifacts/execution_log.json": "31c62702526f59323bf73f3be28f4f536ae456f29fc9b3eb66a9c9ddc3c48b13",
+    "stages/stage_1/artifacts/historical_counts.json": "2d36e706765f9756d0f4559f91ab1e0f16566a53c84a13a45091c1a77d78b646",
+    "stages/stage_1/artifacts/intended_circuit.qpy": "7ed6b9957e2cf1bf96ea4bf8c894a7a6e2cfe7f9120f03aea06abc2a9a1a07fc",
+    "stages/stage_1/artifacts/mapping_current.json": "83139c18541b0b11acacd7f3eb5decdf4cbcae129c57d9f768aa4331bac6c6d4",
+    "stages/stage_1/artifacts/mapping_history.json": "fa437b4bf72616fcbf577c298dd310d7820d937aa31146e0462b9b1628bad20a",
+    "stages/stage_1/artifacts/README.md": "c3bad1b0ed33e2e0759eaaf2b6a0620ef944167494f365b83e3c2c0a31a2685e",
+    "stages/stage_1/artifacts/schedule.json": "08028bcf12ed7041aedfa7616ab4698e9fd92624c31f2a66f85f63b2b438c69c",
+    "stages/stage_1/artifacts/submission_schema.json": "4750db9d06709275e6f7ff6b6845f63bbd600e721a3e2d54b7b427ad7a7c3da3",
+    "stages/stage_1/README.md": "668e610c7c35e98ae6cbc97019f935ad3233e333605763b716b0b68b28e8e5dd",
+    "stages/stage_2/artifacts/backend_snapshot.json": "6d191408a9903c894f31228262b61e1f3f6ec439becf2adafb8015c561c3b549",
+    "stages/stage_2/artifacts/challenge.json": "871439fb233ba3344b3047f2b73064b618ff329bd71ae569935f51a987294205",
+    "stages/stage_2/artifacts/characterization.json": "134f0fb0e033999fd5bb135c0c3988efca57dff8a1cbe283e827bb2411dda9a7",
+    "stages/stage_2/artifacts/compiled_circuit.qpy": "7ae276dac92ec54ed2bf2d9ef57254802b065ec6dab400924d2901124d25b045",
+    "stages/stage_2/artifacts/compiled_circuit.txt": "b5cdb4f4dc258c2c6edb3b1468be30d39f98903a115002acef942b26a90f5a70",
+    "stages/stage_2/artifacts/control_calibration.json": "1852dd4426afebdba3927d6ec5d8637993cc70ae93267b0894d9bb70b7154414",
+    "stages/stage_2/artifacts/control_manifest.json": "9453b11d5e7e81c8be1e33123d16f99d46c576dddf154730777041f9a5d13f6f",
+    "stages/stage_2/artifacts/device_design.json": "e75d62450d060899f0cecd80f2449ee5ce84ed35c3cd228d30c4623e71125693",
+    "stages/stage_2/artifacts/device_model.json": "0058f700270901cf5129258c82b33f65d298f75d32e75ec404e8d60fc3971c90",
+    "stages/stage_2/artifacts/intended_circuit.qpy": "bc33f7af65cef5772e139482954ae15fc39235875006ca0468db08ad8b19c821",
+    "stages/stage_2/artifacts/intended_circuit.txt": "b5cdb4f4dc258c2c6edb3b1468be30d39f98903a115002acef942b26a90f5a70",
+    "stages/stage_2/artifacts/local_subsystem.json": "d379e9a9b03401e130efe91bf7829bdc05009931804a1f3489fcfb3d945bb53a",
+    "stages/stage_2/artifacts/mapping.json": "9dcd7859ae72672b5b30acc5effea00c8516705565f7cf51c29498a035a17943",
+    "stages/stage_2/artifacts/noise_snapshot.json": "454c3c287b6a9b4658f3fc7ee376a319785c38d128a64c2b6dfa8ac527fd1099",
+    "stages/stage_2/artifacts/observable_spec.json": "6f5a5182a949570cd7cfd263d2e9a8faa805e5942da93054cf32f5ccc35cb4c3",
+    "stages/stage_2/artifacts/provenance_registry.json": "361a58fb0ab97d881f9f4e03c86617275ec2151c32304a26741c347328332d5f",
+    "stages/stage_2/artifacts/schedule.json": "c026e1ec0538c35d0cf45733819fe2f88095f281a86b915408bf5c1cdd9a567f",
+    "stages/stage_2/artifacts/simulated_runtime_snapshot.json": "d896038c91c785d665ce16868a4aa50d4bed132778c750fe310b11c9573f44a4",
+    "stages/stage_2/artifacts/simulation_config.json": "8c780883ee7112457a8852ee6b60f441a31adaaf1341441fd53ff39501dce93e",
+    "stages/stage_2/artifacts/tool_requirements.json": "bd8e13aaeb0813ade65c82368030a88e68766a661145cea09bb4141afc8aa0ce",
+    "stages/stage_2/artifacts/verification_circuit.qpy": "259e27a6be031d2d6568145105f440ab6d0e6de7ef472dc44cb7027370c20b1f",
+    "stages/stage_2/artifacts/verification_circuit.txt": "122e2477af393f53e8c610ea299ac219411250a7a66d2356797fedea9fa3c326",
+    "stages/stage_2/artifacts/verification_protocol.json": "4718b0a8af6f3aee676e40410b48260aadef5f6d30595eebce5380a362963690",
+    "stages/stage_2/README.md": "6a928039eacd153cc593591d2adc898f1991a39824bf8a8103b32fdf39c8e0e4",
+    "submission_schema.json": "a25b312070a04728b8fc2e0679e86d6ddb4ca941185421c8fbdc449ce796d792",
+    "tests/conftest.py": "92d142730816bb48f2370d556a70136a0cdb519166c90eca2bf73b96da203047",
+    "tests/test_demo.py": "1fcac904d81173f65b2ca6b53258916cebfe578f5765eed5c29740b4cfb5f8ae",
+    "tests/test_no_leaks.py": "e9b890f7e4d21743b3dd5b7f53fe708db3d8fc4e7bf3e7ed645b44e771b04045",
+    "tests/test_policy.py": "e33bd1b01dc871f17091c3580d9baaa3b342fbc4b48351014bf8d76963aff333",
+    "tests/test_release_structure.py": "b4b02eeb0315ffe8bef39e4c7c9a227945ab6aa626c91773ef3af306bd3c7bdd",
+    "tests/test_scoring_totals.py": "64b41d523d3727f8722926a856105a9b842e57950e7f82c5649a00eb24ce2d15",
+    "tests/test_stage1.py": "cf6298eaa02567471730ed340f975d1dd2ca1085fc470b495bd3e977cc090680",
+    "tests/test_stage2.py": "b50f0528223413b3261ab6a58b9f2df0df74e6d828aaeebff9cee562633f1652",
+    "tests/test_submission.py": "27795ba1caf19272c645311c3fc32c5b310b4d75e7bbffa2917e5b0b005d54e7",
+    "validate_submission.py": "b72b60f51f63472cb2774ee8f608f309152332c06d31ba019028a48ef4cba778",
+    "release_manifest.json": "a10f8a244b4acba0d39a327996e5c1f97e518821b1de07ddb32f7a5c559ac21c"
+  },
+  "stage_submissions": {
+    "stage_1": {
+      "verdict": "INTEGRITY_VIOLATION",
+      "layer_assessments": {
+        "circuit": "CONSISTENT: intended and compiled circuits have identical gate sequence, angles and measurement->clbit mapping; only the qubit layout differs (q0->0, q1->1, q2->4). Unitary equivalence (Operator.equiv up to global phase, intended embedded via layout) confirmed.",
+        "mapping": "VALID: mapping M2 matches mapping_history, is injective and both CX are on coupled pairs. Change from earlier mapping: {'q2': (2, 4)} under ticket maint_2048.",
+        "schedule": "CONSISTENT: schedule mapping_id/device_epoch match, scheduled CX pairs and measured qubits equal the compiled circuit and mapping.",
+        "control_calibration": "FAILED: ent_73 (cx_1_2) on physical [1, 4] ['node_b', 'node_e'] uses bind_73 -> cp_017/cb_73c from epoch K19 (created 2026-05-02T11:44:08Z, before current calibration valid_from 2026-08-14T08:30:00Z), whose profile targets ['node_b', 'node_c'] not ['node_b', 'node_e']; current-epoch profile for ['node_b', 'node_e'] is ['cp_026']",
+        "execution": "FAILED: counts deviate from ideal GHZ (TVD 0.517); historical run on M1/K19 had TVD 0.066. Bits ['c2'] decorrelated from the rest (pair agreement {c0c1: 0.95, c1c2: 0.51, c0c2: 0.51}), first CX pair c0c1 still 0.95."
+      },
+      "suspected_fault_type": "stale_control_calibration_binding_after_remap",
+      "affected_logical_operations": [
+        "cx_1_2"
+      ],
+      "expected_physical_resources": [
+        "physical qubits 1-4 (node_b-node_e) coupler",
+        "calibration profile cp_026 (K20)"
+      ],
+      "suspected_realized_resources": [
+        "physical qubits 1-2 (node_b-node_c) coupler",
+        "control binding bind_73 / bundle cb_73c / profile cp_017 channel u12 (epoch K19)"
+      ],
+      "artifact_evidence": [
+        {
+          "artifact": "intended_circuit.qpy",
+          "claim": "Intended 3-qubit GHZ-style circuit: rz,sx,rz on q0; cx(0,1); cx(1,2); measure all."
+        },
+        {
+          "artifact": "compiled_circuit.qpy",
+          "claim": "Compiled circuit has identical ops/angles/clbits; layout q0->0,q1->1,q2->4; cx(1,4).",
+          "locator": "instruction 4"
+        },
+        {
+          "artifact": "mapping_current.json",
+          "claim": "mapping M2 effective 2026-08-14T09:00:00Z: q2->4.",
+          "locator": "logical_to_physical"
+        },
+        {
+          "artifact": "mapping_history.json",
+          "claim": "q2 moved 2->4 at maintenance maint_2048.",
+          "locator": "mappings[1].change_ticket"
+        },
+        {
+          "artifact": "backend.json",
+          "claim": "coupling_map contains [1,4]; endpoint_registry maps node_b=1,node_c=2,node_e=4.",
+          "locator": "coupling_map"
+        },
+        {
+          "artifact": "schedule.json",
+          "claim": "ent_73 (cx_1_2) scheduled on physical [1,4] with control_binding bind_73.",
+          "locator": "operations[ent_73]"
+        },
+        {
+          "artifact": "control_manifest.json",
+          "claim": "bind_73 -> cp_017/cb_73c/u12, calibration_epoch K19, created 2026-05-02.",
+          "locator": "bindings[bind_73]"
+        },
+        {
+          "artifact": "calibration_previous.json",
+          "claim": "cp_017 (u12) is a K19 profile for node_b-node_c (physical 1-2).",
+          "locator": "profiles[cp_017]"
+        },
+        {
+          "artifact": "calibration_current.json",
+          "claim": "K20 has cp_026 (u15) for node_b-node_e (physical 1-4); cp_021 for node_a-node_b.",
+          "locator": "profiles"
+        },
+        {
+          "artifact": "execution_log.json",
+          "claim": "Job ran under calibration_epoch K20 / mapping M2 but loaded bundle cb_73c for ent_73.",
+          "locator": "loaded_bindings"
+        },
+        {
+          "artifact": "execution_counts.json",
+          "claim": "~47% '000', ~46% '011', '111' only 0.010: c2 stuck at 0, decoupled from c0/c1.",
+          "locator": "counts"
+        },
+        {
+          "artifact": "historical_counts.json",
+          "claim": "K19/M1 run was GHZ-like (~46% '000', ~47% '111').",
+          "locator": "counts"
+        },
+        {
+          "artifact": "calibration_current.json",
+          "claim": "Low gate quality (node_d) and high readout error (node_f) belong to unused qubits.",
+          "locator": "qubit_metrics"
+        }
+      ],
+      "diagnostic_evidence": [
+        {
+          "job_id": "local_sim_H1_noise_only_ghz",
+          "shots": 4096,
+          "qubits": [
+            0,
+            1,
+            4
+          ],
+          "depth": 6,
+          "claim": "Offline qiskit-aer simulation (no hardware) of the intended GHZ circuit on physical [0, 1, 4] with noise taken only from calibration_current.json: TVD to observed job_20_8841 counts = 0.480; it predicts ~46% '000' and ~46% '111', so calibration-level noise alone cannot reproduce the data."
+        },
+        {
+          "job_id": "local_sim_H2_cx12_ineffective",
+          "shots": 4096,
+          "qubits": [
+            0,
+            1,
+            4
+          ],
+          "depth": 5,
+          "claim": "Offline simulation of the same circuit with CX(logical q1,q2) having no effect, same noise: TVD to observed counts = 0.013; reproduces the '000'/'011' split. Mixture fit obs=(1-f)*H1+f*H2 gives f=0.99. Probes were structurally validated with diagnostic_client.py (2 of 20 jobs, 8192 of 10000 shots)."
+        },
+        {
+          "job_id": "local_model_selection_counts",
+          "shots": 1,
+          "qubits": [
+            0,
+            1,
+            4
+          ],
+          "depth": 6,
+          "claim": "Offline model selection on job_20_8841 counts (exact density-matrix distributions, multinomial log-likelihood). Best by BIC: C_cx12_ineffective. dBIC vs best: noise-only 26712, inflated-noise (free uniform admixture e=0.65) 15817. Ordinary noise, even inflated, is excluded; 'CX(q1,q2) ineffective' and 'partial failure' are supported. Counts cannot separate a failed gate from a stale binding; the control provenance records do."
+        }
+      ],
+      "estimated_parameters": {
+        "tvd_current_vs_ideal": 0.5166,
+        "chi2_current_vs_history": 7377.7,
+        "log10_p_current_vs_history": -300.0,
+        "unitary_equivalent_1_yes": 1.0,
+        "tvd_historical_vs_ideal": 0.0664,
+        "pair_agreement_c0c1_current": 0.9512,
+        "pair_agreement_c1c2_current": 0.5076,
+        "pair_agreement_c0c2_current": 0.5081,
+        "p_c2_equals_1_current": 0.021,
+        "z_score_011_vs_baseline": 402.7,
+        "tvd_observed_vs_noise_only_model": 0.4797,
+        "tvd_observed_vs_cx12_ineffective_model": 0.0132,
+        "fitted_cx12_ineffective_fraction": 0.99,
+        "delta_BIC_noise_only_vs_best": 26712.1,
+        "delta_BIC_inflated_noise_vs_best": 15816.7,
+        "model_weight_best_BIC": 0.9809,
+        "fitted_partial_cx_failure_fraction_f": 0.997
+      },
+      "incidental_anomalies": [
+        "node_d (physical qubit 3) low relative_gate_quality 0.86 vs median 0.98: rejected - qubit 3 is not in the mapping, schedule or any CX, and the output register only contains bits from physical [0, 1, 4]",
+        "node_f (physical qubit 5) readout_error 0.08 vs median 0.02: rejected - qubit 5 is never measured in schedule.json",
+        "background scatter outside the two dominant strings = 0.068, consistent with readout error on used qubits [0.02, 0.02, 0.02] (expected ~0.059): ordinary noise, not a fault",
+        "mapping change M1->M2 (maint_2048) is itself valid (coupled, injective, matches history); not a fault by itself - only the control bundle left unrefreshed after it is",
+        "two-sample chi-square, current vs historical healthy run: chi2=7378, dof=7, p=0.0e+00 -> distributions differ far beyond shot noise",
+        "noise cannot explain the shift: '011' count 3756 vs healthy baseline 84+-9 (403 sigma)"
+      ],
+      "root_cause": "Maintenance ticket maint_2048 remapped logical q2 from physical 2 to 4 (mapping M2), but control binding bind_73 for ent_73 was not regenerated: it still loads K19 bundle cb_73c (profile cp_017, channel u12) calibrated for node_b-node_c, not the node_b-node_e pair now used. Result: cx_1_2 is not correctly realised and the third qubit does not follow the GHZ state, while compile, mapping and schedule layers are all consistent.",
+      "proposed_repair": "Regenerate/rebind bind_73 for ent_73 to the current K20 profile cp_026 on the node_b-node_e pair, refresh the control manifest and execution-time bundle load, add a pre-flight check that every binding's calibration_epoch equals the execution epoch and its profile endpoint_refs equal the scheduled physical qubits, and re-run job with identical circuit/mapping/schedule. Runtime assertion (pre-flight, ProQ-style): before submit, assert for every scheduled CX that binding.calibration_epoch == execution epoch, binding.created_at >= calibration valid_from, and profile.endpoint_refs == endpoint_registry[scheduled physical qubits]; abort the job otherwise.",
+      "repair_validation": "After rebinding: (1) re-run the 8192-shot job and require TVD to ideal GHZ <= ~0.08 (history on a healthy stack: 0.066), P('000')+P('111') >= ~0.89, and pairwise agreement c1c2 and c0c2 >= 0.90 (currently 0.51/0.51); (2) run a short 2-qubit CX probe on physical 1-4 (e.g. X on control, CX, measure) within diagnostic_budget.json and require the target to flip with probability >= ~0.9; (3) control experiment: the same probe on 0-1 must be unchanged; (4) verify the control manifest and execution log now show epoch K20 and the correct profile for every CX.",
+      "confidence": 0.93
+    },
+    "stage_2": {
+      "verdict": "INTEGRITY_VIOLATION",
+      "layer_assessments": {
+        "circuit_compilation": "CONSISTENT: intended and compiled circuits (4212 ops each) have identical per-qubit operation sequences; the target RZZ moved from intended index 2346 to compiled index 694 by scheduling reorder only, with the same angle (1.570796 vs 1.570796 rad) on edge [1, 4].",
+        "mapping_runtime": "CONSISTENT: identity mapping map-21; edge (1,4) exists in backend backend-21; op_00694 scheduled on [1,4] with control-21; runtime-21 carries D21/K21 and the D21 fingerprint, matching backend, design and calibration.",
+        "device_design": "CURRENT AND INTERNALLY CONSISTENT: design-21 is revision D21 with fingerprint matching registry; coupler geom-C14 gap 18 um, coupling proxy 18.0 MHz.",
+        "device_model": "STALE: model-20 (created 2026-07-01T09:00:00Z) derives from fingerprint 7fc9616fd892... = revision D20, not current D21; coupling_proxy 16.0 MHz vs design 18.0 MHz.",
+        "control_calibration": "DERIVED FROM STALE MODEL: cal-21 (K21, channel u14) has model_ref model-20; nominal rate 0.100531 rad/ns = 2*pi*16.0/1000 and duration 15.625 ns give target angle 1.5708 rad, which holds only if g=16.0 MHz.",
+        "physical_consequence": "FAILED: characterization fits omega=0.11310 rad/ns (g=18.000 MHz), 1.125x nominal; realized angle 1.7672 rad instead of 1.5708 (over-rotation 0.1964 rad). Fit residual 0.0012 <= tol 0.004; nominal model misses by 1.00. Bootstrap 95% CI on g: [17.997, 18.005] MHz; model-20's 16.0 MHz is 981 sigma away, design-21's 18.0 MHz lies inside the CI: True.",
+        "observables": "Global parity observables = 1.0 are insensitive (RZZ gates commute with ZZ...Z parity), so they cannot reveal the fault. Verification <X1> observed -0.1932 vs 0.0000 expected with nominal pi/2; implies theta=1.7671 rad, in agreement with characterization (1.7672)."
+      },
+      "suspected_fault_type": "stale_device_model_coupling_rate_miscalibration",
+      "affected_logical_operations": [
+        "op_00694 (instruction 694): RZZ(1.5708) on logical qubits [1, 4]"
+      ],
+      "expected_physical_resources": [
+        "physical edge [1, 4] / coupler geom-C14",
+        "coupling 16.0 MHz per model-20 / calibration cal-21 (nominal 0.10053 rad/ns)"
+      ],
+      "suspected_realized_resources": [
+        "physical edge [1, 4] with effective coupling ~18.00 MHz (design-21 18.0 MHz, geometry revision D21)",
+        "control channel u14 / cal-21 driven with a D20-derived rate"
+      ],
+      "artifact_evidence": [
+        {
+          "artifact": "challenge.json",
+          "claim": "Target op_00694 at compiled instruction 694 on edge [1,4]; intended index 2346.",
+          "locator": "circuit"
+        },
+        {
+          "artifact": "compiled_circuit.qpy",
+          "claim": "Instruction 694 is RZZ(1.570796) on (1,4); per-qubit order matches intended circuit.",
+          "locator": "instruction 694"
+        },
+        {
+          "artifact": "intended_circuit.qpy",
+          "claim": "Same RZZ(1.570796) on (1,4) at index 2346.",
+          "locator": "instruction 2346"
+        },
+        {
+          "artifact": "mapping.json",
+          "claim": "Identity logical->physical mapping; op_00694 on edge [1,4].",
+          "locator": "operations[0]"
+        },
+        {
+          "artifact": "backend_snapshot.json",
+          "claim": "Edge [1,4] supported; device_revision D21 with D21 fingerprint.",
+          "locator": "edges"
+        },
+        {
+          "artifact": "schedule.json",
+          "claim": "op_00694 RZZ on [1,4], 15.625 ns, control-21; same id reused by unrelated rz on q8.",
+          "locator": "operations"
+        },
+        {
+          "artifact": "simulated_runtime_snapshot.json",
+          "claim": "Runtime used D21 geometry and K21 calibration.",
+          "locator": "device_revision"
+        }
+      ],
+      "diagnostic_evidence": [],
+      "estimated_parameters": {
+        "fitted_omega_rad_per_ns": 0.1131,
+        "fitted_coupling_MHz": 18.0004,
+        "model20_coupling_MHz": 16.0,
+        "design21_coupling_MHz": 18.0,
+        "nominal_omega_rad_per_ns": 0.10053096491487339,
+        "rate_ratio_fit_over_nominal": 1.125,
+        "realized_zz_angle_rad": 1.76718,
+        "target_zz_angle_rad": 1.5707963267948966,
+        "overrotation_rad": 0.19639,
+        "corrected_pulse_duration_ns": 13.8886,
+        "characterization_fit_max_residual": 0.00121,
+        "verification_X1_observed": -0.19319937253274094,
+        "verification_X1_expected_nominal": 0.0,
+        "verification_implied_theta_rad": 1.76715,
+        "delta_BIC_nominal_g16_vs_best": 651539.8,
+        "delta_BIC_decay_only_vs_best": 403171.3,
+        "delta_BIC_design_g18_vs_best": 0.0,
+        "model_weight_best_BIC": 0.7356,
+        "bootstrap_coupling_MHz_ci95_low": 17.9969,
+        "bootstrap_coupling_MHz_ci95_high": 18.0047,
+        "bootstrap_coupling_MHz_std": 0.00204,
+        "model20_coupling_sigma_away": 981.5
+      },
+      "incidental_anomalies": [
+        "Noise snapshot distractors on qubit(s) [27, 30] (Q27 T1=25 us; Q30 readout error 0.18): rejected - not on target edge 1-4, noise-21 states they are not applied to the isolated Q1/Q4 probes, and the characterization is fit to <=0.004 by a pure coherent rate change.",
+        "Ordinary T1/T2 (100/80 us) and readout (0.01) on Q1,Q4 would only damp amplitudes; the data show full-contrast oscillations at a shifted frequency, not decay.",
+        "Compiler reordering: target RZZ at compiled index 694 vs intended 2346 is a scheduling permutation with identical per-qubit dependency order, not a gate change.",
+        "Duplicate operation_id op_00694 appears at instruction 2346 (rz on q8, control-base): an ID collision on an unrelated zero-duration rz, not the target.",
+        "Global parity observables equal 1.0 (tol 1e-9) but are symmetry-protected, so they pass even with the wrong rate; they do not clear the execution.",
+        "Model selection on the 8 characterization probes (Gaussian likelihood, sigma=tol/sqrt(3)): best by BIC is design_g18; dBIC of nominal 16 MHz = 651540, of nominal+decay (T1/T2-like damping) = 403171, of the supplied 18 MHz design value = 0.0. Ordinary decoherence cannot reproduce a frequency shift, and the data prefer 18 MHz with no free parameter."
+      ],
+      "root_cause": "Provenance break at the device-model boundary: model-20 was built from geometry revision D20 (fingerprint 7fc9616fd892..., 2026-07-01T09:00:00Z) with coupling proxy 16.0 MHz and was never regenerated for revision D21 (coupler gap 18 um, proxy 18.0 MHz). control calibration cal-21 consumed model-20, so the 15.625 ns rectangular pulse for op_00694 implements theta=1.7672 rad instead of pi/2. Compile, mapping, schedule, runtime and design layers are consistent.",
+      "proposed_repair": "Regenerate the device model from design-21 / fingerprint 74a51d718cc3... (g=18.0 MHz), rebuild cal-21 from the new model (omega=2*pi*18.0/1000=0.11310 rad/ns; pulse 13.889 ns for pi/2, or amplitude scaled by 0.889 at 15.625 ns), update model_ref and control-21, and add a registry check that model.source_geometry_fingerprint equals the current design fingerprint before calibration.",
+      "repair_validation": "(1) Registry check: model, design, backend and runtime fingerprints equal (74a51d718cc3...). (2) Re-run the |++> XI characterization (n=1..8): expect cos(n*pi/2) = 0,-1,0,1,... within 0.004. (3) Re-run verification circuit: <X1> must equal 0.0000 (~0) within 0.004 instead of -0.1932. (4) Re-run main workload with MPS (bond 128/256/512, threshold 1e-10) and check observable deltas converge; (5) confirm other edges (e.g. 0-1) unchanged as a control. Pre-flight assertion (ProQ-style) for every calibration: model.source_geometry_fingerprint == design.geometry_fingerprint == runtime.geometry_fingerprint; abort the job on mismatch.",
+      "confidence": 0.93,
+      "runtime_evidence": [
+        {
+          "artifact": "simulated_runtime_snapshot.json",
+          "claim": "Runtime reports D21 fingerprint 74a51d71..., epoch K21, edge [1,4].",
+          "locator": "geometry_fingerprint"
+        }
+      ],
+      "device_design_evidence": [
+        {
+          "artifact": "device_design.json",
+          "claim": "design-21 revision D21: coupler geom-C14 gap 18 um, coupling_proxy_MHz 18.0.",
+          "locator": "local_region.coupling_proxy_MHz"
+        },
+        {
+          "artifact": "provenance_registry.json",
+          "claim": "Registry lists D20 (7fc9616f..., 2026-07-01) and D21 (74a51d71..., 2026-08-15).",
+          "locator": "revisions"
+        }
+      ],
+      "device_model_evidence": [
+        {
+          "artifact": "device_model.json",
+          "claim": "model-20 source_geometry_fingerprint = D20 (7fc9616f...), created 2026-07-01, coupling_proxy_MHz 16.0.",
+          "locator": "source_geometry_fingerprint"
+        },
+        {
+          "artifact": "local_subsystem.json",
+          "claim": "Local 2-qubit subsystem references model-20 and design-21 simultaneously.",
+          "locator": "model_ref"
+        }
+      ],
+      "control_evidence": [
+        {
+          "artifact": "control_calibration.json",
+          "claim": "cal-21 model_ref model-20, nominal_rate 0.10053096491487339, duration 15.625 ns -> target angle pi/2.",
+          "locator": "model_ref"
+        },
+        {
+          "artifact": "control_manifest.json",
+          "claim": "control-21 targets op_00694 on edge [1,4], channel u14, cal-21, epoch K21.",
+          "locator": "calibration_ref"
+        }
+      ],
+      "simulation_evidence": [
+        {
+          "artifact": "characterization.json",
+          "claim": "cos(n*omega*t) fit gives omega 0.11310 rad/ns (g 18.00 MHz); nominal model deviates by 1.00.",
+          "locator": "probes"
+        },
+        {
+          "artifact": "observable_spec.json",
+          "claim": "verification-X1 observed -0.1932; parity observables 1.0 uninformative.",
+          "locator": "observables"
+        },
+        {
+          "artifact": "verification_protocol.json",
+          "claim": "<X_q>=cos(phi_q)*prod cos(theta_e); target RZZ is pi/2 under calibration.",
+          "locator": "analytic_identity"
+        }
+      ]
+    }
+  },
+  "runtime_seconds": 3.2285124819973134,
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "packages": {
+      "qiskit": "2.6.2",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1"
+    }
+  }
+}
